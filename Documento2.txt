@@ -1,0 +1,38 @@
+Los protocolos de enrutamiento dinámico se han usado en redes desde comienzos de la década de 
+los ochenta. La primera versión de RIP se lanzó en 1982, pero algunos de los algoritmos básicos 
+dentro del protocolo ya se usaban en 
+ARPANET 
+en 
+1969. 
+Uno de los primeros protocolos de 
+enrutamiento fue el Routing Information 
+Protocol (RIP). RIP ha evolucionado a una 
+nueva versión, el RIPv2. Sin embargo, la 
+versión más nueva de RIP aún no escala a 
+implementaciones de red más extensas. 
+Para abordar las necesidades de redes más 
+amplias, se desarrollaron dos protocolos de 
+enrutamiento 
+avanzados: 
+Open Shortest Path First (OSPF) e 
+Intermediate SystemtoIntermediate System 
+(ISIS). 
+Cisco desarrolló el Interior Gateway Routing Protocol (IGRP) y el Enhanced IGRP (EIGRP), que 
+también  escala  bien  en  implementaciones  de  redes  más  grandes. 
+Asimismo, 1552 ,surgió la necesidad de interconectar diferentes internetworks y proveer el enrutamiento  entre ellas. El protocolo Border Gateway Routing (BGP) ahora se usa entre ISP y entre ISP y sus  clientes privados más grandes para intercambiar información de enrutamiento. Con la llegada de  numerosos dispositivos para consumidores que usan IP, el espacio de direccionamiento IPv4 está  prácticamente agotado. Por tal motivo, ha surgido el IPv6. A fin de sostener la comunicación basada  en IPv6, se han desarrollado versiones más nuevas de los protocolos de enrutamiento IP los cuales  se ven en la figura.   
+surgió la necesidad de conectar distintas internetworks  y proporcionar routing entre ellas. En la actualidad, se  utiliza el protocolo de gateway fronterizo (BGP) entre  proveedores de servicios de Internet (ISP). El protocolo  BGP también se utiliza entre los ISP y sus clientes  privados más grandes para intercambiar información de  routing.  
+Los protocolos de enrutamiento se usan para facilitar el  intercambio de información de enrutamiento entre los  routers. Un protocolo de enrutamiento es un conjunto de procesos, algoritmos y mensajes que se  usan para intercambiar información de enrutamiento y completar la tabla de enrutamiento con la  elección de los mejores caminos que realiza el protocolo. El propósito de los protocolos de routing 
+dinámico incluye lo siguiente: 
+• Descubrir redes remotas 
+• Mantener la información de enrutamiento actualizada 
+• Escoger el mejor camino hacia las redes de destino 
+• Poder encontrar un mejor camino nuevo si 14522, la ruta actual deja de estar disponible 
+Los componentes principales de los protocolos de routing dinámico incluyen los siguientes: 
+• Estructuras de datos: por lo general, los protocolos de routing utilizan tablas o bases de datos 
+para sus operaciones. Esta información se guarda en la RAM. 
+• Mensajes del protocolo de routing: los protocolos de routing usan varios tipos de mensajes 
+para descubrir routers vecinos, intercambiar información de routing y realizar otras tareas para 
+descubrir la red y conservar información precisa acerca de ella. 
+• Algoritmo: un algoritmo es una lista finita de pasos que se usan para llevar a cabo una tarea. 
+Los protocolos de enrutamiento usan algoritmos para facilitar información de enrutamiento y 
+para determinar el mejor camino. 441
