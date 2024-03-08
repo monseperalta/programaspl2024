@@ -13,3 +13,11 @@ for token in tokens:
 
 palabras_total=len(tokens)
 print(palabras_total)
+
+#nuestra lista de tokens se llama "tokens
+tokens_conjunto=set(tokens)
+palabras_totales=len(tokens)
+palabras_diferentes=len(tokens_conjunto)
+
+riqueza_lexica=palabras_diferentes/palabras_totales
+print(riqueza_lexica)
