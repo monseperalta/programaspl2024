@@ -1,5 +1,7 @@
 import nltk
 
+
+#alumna:monserrat peralta
 def riqueza_lexica(tokens):
     tokens_conjunto=set(tokens)
     palabras_totales=len(tokens)
@@ -16,3 +18,4 @@ with open(carpeta_nombre+archivos_nombre,"r") as archivo:
 tokens=nltk.word_tokenize(texto,"spanish")
 riqueza_lexica=riqueza_lexica(tokens)
 print(riqueza_lexica)
+
