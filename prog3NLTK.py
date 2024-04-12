@@ -3,7 +3,6 @@
 import nltk
 nltk.download('stopwords')
 
-
 print("NOMBRE: GUADALUPE MONSERRAT PERALTA SÁNCHEZ")
 carpeta_nombre="Documentos\\"
 archivos_nombre="Documento2.txt"
