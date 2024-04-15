@@ -25,8 +25,8 @@ def guardar_texto_en_archivo(texto, nombre_archivo):
         archivo.write(texto)
     print(f"El texto ha sido guardado en el archivo '{nombre_archivo}'.")
 
-# URL de la página web que deseas analizar
-url = 'https://es.wikipedia.org/wiki/BTS'
+# Solicitar al usuario que ingrese la URL de la página web
+url = input("Ingrese la URL de la página web: ")
 
 # Obtener el texto de la página web
 texto_pagina = obtener_texto_desde_url(url)
