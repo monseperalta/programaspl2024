@@ -1,0 +1,347 @@
+UNIVERS IDAD DE COLIMA  
+FIME  
+ 
+ING.COMPUTACI ÓN INTELIGENTE  
+ESCALAMIENTO DE REDES  
+ 
+“PROTOCOLOS DE ENRUTAMIENTO DINAMICO”  
+ 
+PROFESOR:  
+CARRILLO ZEPEDA OSWALD O 
+ 
+ALUMNA:  
+GUADALUPE MONSERRAT PERAL TA SÁNCHEZ  
+ 
+5.-D 
+21 DE NOVIEMBRE DEL 2023  
+  Los protocolos de enrutamiento dinámico se han usado en redes desde comienzos de la década de 
+los ochenta. La primera versión de RIP se lanzó en 1982, pero algunos de los algoritmos básicos 
+dentro del protocolo ya se usaban en 
+ARPANET en 1969.  
+Uno de los primeros protocolos de 
+enrutamiento fue el Routing Information 
+Protocol (RIP). RIP ha evolucionado a una 
+nueva versión, el RIPv2. Sin embargo, la 
+versión más nueva de RIP aún no escala a 
+implementaciones de red más extensas.  
+Para abordar las necesidades de redes más 
+amplias, se desarrollaron dos protocolos de 
+enrutamiento  avanzados:  
+ 
+Open Shortest Path First (OSPF) e 
+Intermediate SystemtoIntermediate System 
+(ISIS).  
+Cisco desarrolló el Interior Gateway Routing Protocol (IGRP) y el Enhanced IGRP (EIGRP), que 
+también escala bien en implementaciones de redes más grandes.  
+Asimismo, surgió la necesidad de interconectar diferentes internetworks y proveer el enrutamiento 
+entre ellas. El protocolo Border Gateway Routing (BGP) ahora se usa entre ISP y entre ISP y sus 
+clientes privados más grandes para intercambiar información de  enrutamiento. Con la llegada de 
+numerosos dispositivos para consumidores que usan IP , el espacio de direccionamiento IPv4 está 
+prácticamente agotado. Por tal motivo, ha surgido el IPv6. A fin de sostener la comunicación basada 
+en IPv6, se han desarrollad o versiones más nuevas de los protocolos de enrutamiento IP los cuales 
+se ven en la figura.     
+  
+EVOLUCIÓN DE LOS 
+PROTOCOLOS DE 
+ENRUTAMIENTO DINAMICO  EVOLUCIÓN DE LOS 
+PROTOCOLOS DE 
+ENRUTAMIENTO DINAMICO  
+ 
+ 
+ 
+ surgió la necesidad de conectar distintas internetworks 
+y proporcionar routing entre ellas. En la actualidad, se 
+utiliza el protocolo de gateway fronterizo (BGP) entre 
+proveedores de servicios de Internet (ISP). El protocolo 
+BGP también se utiliza entre l os ISP y sus clientes 
+privados más grandes para intercambiar información de 
+routing.   
+Los protocolos de enrutamiento se usan para facilitar el 
+intercambio de información de enrutamiento entre los 
+routers. Un protocolo de enrutamiento es un conjunto de procesos, algoritmos y mensajes que se 
+usan para intercambiar información de enrutamiento y completar la tabla de enrutamiento con la 
+elección de los mejores caminos que realiza el protocolo. El propó sito de los protocolos de routing 
+dinámico incluye lo siguiente:  
+• Descubrir redes remotas  
+• Mantener la información de enrutamiento actualizada  
+• Escoger el mejor camino hacia las redes de destino  
+• Poder encontrar un mejor camino nuevo si la ruta actual deja de estar disponible  
+Los componentes principales de los protocolos de routing dinámico incluyen los siguientes:  
+• Estructuras de datos:  por lo general, los protocolos de routing utilizan tablas o bases de datos 
+para sus operaciones. Esta información se guarda en la RAM.  
+• Mensajes del protocolo de routing:  los protocolos de routing usan varios tipos de mensajes 
+para descubrir routers vecinos, intercambiar información de routing y realizar otras tareas para 
+descubrir la red y conservar información precisa acerca de ella.  
+• Algoritmo:  un algoritmo es una lista finita de pasos que se usan para llevar a cabo una tarea. 
+Los protocolos de enrutamiento usan algoritmos para facilitar información de enrutamiento y 
+para determinar el mejor camino.  
+  PROPOSITO DE LOS PROTOCOLOS  PROPOSITO DE LOS PROTOCOLOS  
+USO DE LOS PROTOCOLOS DE ROUTING 
+DINÁMICO   
+ 
+ 
+ 
+- Compartir información de forma dinámica entre routers.  
+- Actualizar las tablas de enrutamiento de forma automática 
+cuando cambia la topología. - Determinar cuál es la mejor 
+ruta a un destino.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+El ruteo  dinámico  es el proceso  de planear  la ruta  de entrega  de productos  y mercancías,  
+con el fin de que esta  se haga  de un modo  efectivo.  Funciona mediante una 
+herramienta que genera el flujo de datos, con algoritmos que ayudan a verificar 
+alteraciones en la vía, tal como lo hace el GPS.   
+Lo anterior permite que se hagan ajustes en la ruta sobre la marcha, de acuerdo 
+con los hallazgos en las vías. Adicionalmente, facilita la organización y 
+estandarización de los datos, de modo que se eviten errores en direcciones y 
+estas se puedan ubicar co rrectamente en el mapa.   
+  FUNCIÓN DE LOS PROTOCOLOS DE 
+ROUTING DINÁMICO  FUNCIÓN DE LOS PROTOCOLOS DE 
+ROUTING DINÁMICO  
+USO DE LOS PROTOCOLOS DE ROUTING 
+DINÁMICO   
+ 
+ 
+ 
+ 
+ 
+ 
+  VENTAJAS Y DESVENTAJAS DEL 
+ROUTING DINÁMICO  VENTAJAS Y DESVENTAJAS DEL 
+ROUTING DINÁMICO  
+ 
+ 
+ 
+ 
+ 
+ 
+Los protocolos de routing permiten a los routers compartir información en forma dinámica 
+sobre redes remotas y agregar esa información automáticamente a sus propias tablas de 
+routing . 
+Los protocolos de routing determinan la mejor ruta hacia cada red y, a continuación, esa 
+ruta se agrega a la tabla de routing. Uno de los beneficios principales de los protocolos de 
+routing dinámico es que los routers intercambian información de routing cu ando se produce 
+un cambio en la topología. Este intercambio permite a los routers obtener automáticamente 
+información sobre nuevas redes y también encontrar rutas alternativas cuando se produce 
+una falla de enlace en la red actual.  
+En comparación con el enrutamiento estático, los protocolos de enrutamiento dinámico 
+requieren menos sobrecarga administrativa. Sin embargo, usar protocolos de routing 
+dinámico implica el costo de dedicar parte de los recursos de un router a la operación d el 
+protocolo, incluidos tiempo de CPU y ancho de banda del enlace de red. Pese a los beneficios 
+del enrutamiento dinámico, el enrutamiento estático aún ocupa su lugar. En algunas 
+ocasiones el enrutamiento estático es más apropiado, mientras que en otras, e l 
+enrutamiento dinámico es la mejor opción. Las redes con niveles moderados de complejidad 
+pueden tener routing estático y routing dinámico configurados.  
+  FUNCIONAMIENTO DEL PROTOCOLO DE 
+ENRUTAMIENTO DINÁMICO  FUNCIONAMIENTO DEL PROTOCOLO DE 
+ENRUTAMIENTO DINÁMICO   
+ 
+ 
+Los protocolos de enrutamiento se agrupan en dos categorías distintas: protocolos de puerta de 
+enlace interior y protocolos de puerta de enlace exterior.  
+Los protocolos de puerta de enlace interior funcionan mejor dentro de un sistema autónomo, 
+una red controlada administrativamente por una sola organización. Los protocolos de puerta de 
+enlace externa gestionan mejor la transferencia de información entre do s sistemas autónomos.  
+Protocolos de puerta de enlace interior  
+Estos protocolos evalúan el sistema autónomo y toman decisiones de enrutamiento en función 
+de diferentes métricas, como las siguientes:  
+• Recuentos de saltos o la cantidad de enrutadores entre el origen y el destino  
+• Retraso o tiempo necesario para enviar los datos desde el origen al destino  
+• Ancho de banda o la capacidad de enlace entre el origen y el destino  
+A continuación se indican algunos ejemplos de protocolos de puerta de enlace interior.  
+Protocolo de información de enrutamiento  
+El Protocolo de información de enrutamiento (RIP) se basa en los recuentos de saltos para 
+determinar la ruta más corta entre las redes. El RIP es un protocolo heredado que nadie utiliza 
+hoy en día porque no se adapta bien a la implementación de redes más g randes.  
+Protocolo Open Shortest Path First (abrir la ruta más corta primero)  
+El protocolo Open Shortest Path First (OSPF) recopila información de todos los demás 
+enrutadores del sistema autónomo para identificar la ruta más corta y rápida hacia el destino de 
+un paquete de datos. Puede implementar OSPF mediante diversos algoritmos d e enrutamiento 
+o procesos informáticos.  
+Protocolos de puerta de enlace externa  
+El protocolo de puerta de enlace fronteriza (BGP) es el único protocolo de puerta de enlace 
+externa.  
+Protocolo de puerta de enlace fronteriza  
+BGP define la comunicación a través de Internet. Internet es una gran colección de sistemas 
+autónomos, todos conectados entre sí. Cada sistema autónomo tiene un número de sistema 
+autónomo (ASN) que obtiene al registrarse en la Autoridad de números asignado s de Internet.  
+BGP funciona mediante el seguimiento de los ASN más cercanos y la asignación de las 
+direcciones de destino a sus respectivos ASN.  CLASIFICACIÓN DE LOS 
+PROTOCOLOS DE ROUTING  CLASIFICACIÓN DE LOS 
+PROTOCOLOS DE ROUTING   
+ 
+ 
+ 
+Un router que utiliza un protocolo de 
+enrutamiento vector distancia no tiene la 
+información de la ruta completa hasta la red 
+de destino. Los protocolos vector distancia 
+utilizan routers como letreros a lo largo de la 
+ruta hacia el destino final. La única 
+información que conoce el router sobre una 
+red remota es la distancia o métrica para 
+llegar a esa red y qué ruta o interfaz usar 
+para alcanzarla. Los protocolos de 
+enrutamiento vector distancia no tienen un 
+mapa en sí de la topología de la red.  
+Hay cuatro IGP vector distancia IPv4:  
+• RIPv1:  protocolo antiguo de primera 
+generación  
+• RIPv2:  protocolo de routing vector distancia simple  
+• IGRP:  protocolo exclusivo de Cisco de primera generación (obsoleto y reemplazado por 
+EIGRP)  
+• EIGRP:  versión avanzada del routing vector distancia  
+ 
+ 
+  EN QUE CONSISTE PROTOCOLOS DE 
+ENRUTAMIENTO VECTOR DISTANCIA  EN QUE CONSISTE PROTOCOLOS DE 
+ENRUTAMIENTO VECTOR DISTANCIA  
+ 
+ 
+ 
+ 
+Es necesario recordar que dentro del enrutamiento dinámico podemos encontrar los 
+siguientes tipos de protocolos:  
+Vector distancia (Distance Vector)  
+Vector ruta (Path Vector)  
+Estado enlace (Link -State)  
+Los protocolos estado enlace son considerados mapas dentro de la red, debido que estos 
+conocen todas las rutas para poder llegar a la red de destino (a diferencia de los protocolos 
+vector distancia, que solo saben lo que los vecinos le dicen), y en base a esto eligen la mejor 
+ruta de todas ellas para instalarlas en la tabla de enrutamiento.  
+Los protocolos link -state utilizan el algoritmo SPF (Shortest Path First) creado por Edsger 
+Dijkstra, el cual calcula la mejor ruta en base al menor costo acumulado a lo largo de una 
+ruta.  
+Dentro de los protocolos más conocidos que podemos encontrar en link -state son:  
+OSPF (Open Shortest Path First)  
+IS-IS (Intermediate System to Intermediate System)  
+Cuando hablamos de enlaces en este tipo de protocolos, nos referimos a las interfaces del 
+router que se encuentran habilitadas para trabajar con uno de estos protocolos.  
+Y con respecto al estado del enlace, los protocolos se refieren a los siguientes parámetros:  
+IP y máscara de la interfaz que trabaja con un protocolo link -state  
+Tipo de red (podemos encontrar NBMA, BMA, P2P , etc.)  
+Coste del enlace  
+Routers vecinos en dicho enlace  
+Proceso de enrutamiento de los protocolos link -state  
+Lo primero es aprender de sus propias redes directamente conectadas que están trabajando 
+con un protocolo estado enlace.  EN QUE CONSISTE PROTOCOLOS DE 
+ENRUTAMIENTO DE LINK -STATE  EN QUE CONSISTE PROTOCOLOS DE 
+ENRUTAMIENTO DE LINK -STATE  Utilizan paquetes hello para hacer vecindad con otros routers, donde luego de hacer 
+adyacencia, los mensajes hello son utilizados como keepalive.  
+Luego de hacer vecindad, los routers crean LSP (Link -state Packet), que contienen la 
+información de las redes del punto 1.  
+Ya creados los LSP , los routers realizan una inundación de estos por todas las interfaces 
+donde se crearon vecindad. Es necesario tener en cuenta, que cuando se reciben los LSP de 
+un vecino, el router reenvía dichos paquetes (sin procesarlos) por todas sus  interfaces que 
+trabajan con link -state, menos por la interfaz donde se recibió dicho mensaje.El algoritmo 
+SPF se calcula al final de que se termina la inundación de mensajes LSP .  
+Los LSP se envían sólo cuando:  
+- Se inicia el router o el protocolo.  
+- Hay un cambio en la topología (caída o activación de interfaz, o cuando se establece o 
+rompe una adyacencia).  
+Dentro de los datos que llevan los LSP , encontramos los números de secuencia y de 
+envejecimiento, que son utilizados para validar la información recibida con lo que se tiene 
+en el LSDB (Link -state database).  
+Una vez terminada la inundación, se utiliza el algoritmo SPF para armar el LSDB (también 
+conocido como árbol SPF o mapa de red) y definir las mejores rutas.  
+Y por último, las mejores rutas son instaladas en la tabla de enrutamiento.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+La mayor diferencia entre los 
+protocolos de routing con clase 
+y sin clase es que los 
+protocolos de routing con clase 
+no envían información de la 
+máscara de subred en sus 
+actualizaciones de routing. Los 
+protocolos de routing sin clase 
+incluyen información de la 
+máscara de subred en las 
+actualizaciones de routing.  
+Los dos protocolos de routing 
+IPv4 originales que se 
+desarrollaron fueron RIPv1 e 
+IGRP, que se crearon cuando 
+las direcciones de red se QUE SON LOS PROTOCOLOS DE 
+ENRUTAMIENTO CON CLASE  QUE SON LOS PROTOCOLOS DE 
+ENRUTAMIENTO CON CLASE  
+QUE SON LOS PROTOCOLOS DE 
+ENRUTAMIENTO CON  SIN CLASE  QUE SON LOS PROTOCOLOS DE 
+ENRUTAMIENTO CON  SIN CLASE  
+Las direcciones de enrutamiento entre dominios sin clases (CIDR) utilizan el 
+enmascaramiento de subred de longitud variable (VLSM) para alterar la proporción entre los 
+bits de la dirección de red y del host en una dirección IP. Una máscara de subred es un 
+conjunto de identificadores que devuelve el valor de la dirección de red a partir de la dirección 
+IP al convertir la dirección del host con ceros.   
+Una secuencia de VLSM permite a los administradores de red dividir un espacio de 
+direcciones IP en subredes de varios tamaños. Cada subred puede tener un recuento de 
+hosts flexible y un número limitado de direcciones IP. Una dirección IP de CIDR agrega un 
+valor de sufijo que indica el número de bits del prefijo de la dirección de red a una dirección 
+IP normal.  
+Por ejemplo, 192.0.2.0/24 es una dirección de CIDR IPv4 en la que los primeros 24  bits, o 
+192.0.2, son la dirección de red.   asignaban según las clases (es decir, clase A, B o C). En ese entonces, no era necesario que un 
+protocolo de routing incluyera la máscara de subred en la actualización de routing, debido a que era 
+posible determinar la máscara de red sobre la base del prim er octeto de la dirección de red.  
+Nota:  solo RIPv1 e IGRP son protocolos con clase. El resto de los protocolos de routing IPv4 e IPv6 
+son protocolos sin clase. El direccionamiento con clase nunca fue parte de IPv6.  
+El hecho de que RIPv1 e IGRP no incluyan información de la máscara de subred en sus 
+actualizaciones significa que no pueden proporcionar máscaras de subred de longitud variable 
+(VLSM) ni routing entre dominios sin clase (CIDR).  
+Los protocolos de routing con clase también generan problemas en las redes no contiguas. Que una 
+red sea no contigua significa que las subredes de la misma dirección de red principal con clase están 
+separadas por una dirección de red con clase diferente.  
+ 
+Los protocolos de routing vector 
+distancia comparten actualizaciones 
+entre vecinos. Los vecinos son routers 
+que comparten un enlace y que están 
+configurados para usar el mismo 
+protocolo de enrutamiento. El router sólo 
+conoce las direcciones de red de sus 
+propias interfaces y las direcciones de 
+red remota que puede alcanzar a través 
+de sus vecinos. Los routers que utilizan 
+el enrutamiento vector distancia no 
+tienen información sobre la topología de 
+la red.  
+Algunos protocolos de routing vector 
+distancia envían actualizaciones 
+periódicas. Por ejemplo, RIP envía una 
+actualización periódica a todos sus vecinos 
+cada 30  segundos; incluso si no se produce un cambio en la topología, RIP continúa enviando 
+actualizaciones. Para llegar a todos sus vecinos, RIPv1 envía actualizaciones a la dirección IPv4 de 
+todos los hosts 255.255.255.255 mediante una difusión.  
+La difusión de actualizaciones periódicas es ineficiente, debido a que las actualizaciones consumen 
+ancho de banda y recursos de la CPU del dispositivo de red. Cada dispositivo de red debe procesar 
+un mensaje de difusión. En cambio, RIPv2 y EIGRP utilizan direcciones de multidifusión, de modo 
+que solamente reciben las actualizaciones los vecinos que las necesitan. EIGRP también puede 
+enviar un mensaje de unidifusión solamente al vecino afectado. Además, EIGRP envía una 
+actualización solo cuando se la necesita, en lugar de hacerlo en forma periódica.  
+ EN QUÉ CONSISTEN LAS TECNOLOGÍAS 
+VECTOR DISTANCIA  EN QUÉ CONSISTEN LAS TECNOLOGÍAS 
+VECTOR DISTANCIA  
